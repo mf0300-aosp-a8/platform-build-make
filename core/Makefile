@@ -2473,6 +2473,10 @@ endif # BOARD_USES_RECOVERY_AS_BOOT
 ifdef BOARD_KERNEL_DTS
 	$(hide) echo "$(BOARD_KERNEL_DTS)" > $(zip_root)/BOOT/dtb
 endif
+ifdef DTS_PLATFORM
+	$(hide) mkdir -p $(zip_root)/RADIO;
+	$(hide) $(ACP) $(PRODUCT_OUT)/u-boot-$(DTS_PLATFORM).imx $(zip_root)/RADIO/bootloader.img
+endif
 	$(hide) $(foreach t,$(INSTALLED_RADIOIMAGE_TARGET),\
 	            mkdir -p $(zip_root)/RADIO; \
 	            cp $(t) $(zip_root)/RADIO/$(notdir $(t));)
