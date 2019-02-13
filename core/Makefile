@@ -2393,6 +2393,8 @@ endef
 # Depending on the various images guarantees that the underlying
 # directories are up-to-date.
 $(BUILT_TARGET_FILES_PACKAGE): \
+		$(INSTALLED_BPTIMAGE_TARGET) \
+		$(TARGET_BOOTLOADER_IMAGE) \
 		$(INSTALLED_BOOTIMAGE_TARGET) \
 		$(INSTALLED_RADIOIMAGE_TARGET) \
 		$(INSTALLED_RECOVERYIMAGE_TARGET) \
