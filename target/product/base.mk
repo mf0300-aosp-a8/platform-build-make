@@ -32,7 +32,6 @@ PRODUCT_PACKAGES += \
     bmgr \
     bugreport \
     bugreportz \
-    cameraserver \
     content \
     dnsmasq \
     dpm \
@@ -54,9 +53,6 @@ PRODUCT_PACKAGES += \
     libaudiopolicyservice \
     libaudiopolicymanager \
     libbundlewrapper \
-    libcamera_client \
-    libcameraservice \
-    libcamera2ndk \
     libdl \
     libdrmclearkeyplugin \
     libclearkeycasplugin \

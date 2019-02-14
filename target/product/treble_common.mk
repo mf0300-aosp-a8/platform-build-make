@@ -39,11 +39,6 @@ PRODUCT_PACKAGES := \
     android.hardware.boot@1.0 \
     android.hardware.broadcastradio@1.0 \
     android.hardware.broadcastradio@1.1 \
-    android.hardware.camera.common@1.0 \
-    android.hardware.camera.device@1.0 \
-    android.hardware.camera.device@3.2 \
-    android.hardware.camera.metadata@3.2 \
-    android.hardware.camera.provider@2.4 \
     android.hardware.configstore-utils \
     android.hardware.configstore@1.0 \
     android.hardware.contexthub@1.0 \
@@ -100,7 +95,6 @@ PRODUCT_PACKAGES += \
     libaudioroute \
     libaudioutils \
     libbinder \
-    libcamera_metadata \
     libcap \
     libcrypto \
     libcrypto_utils \
