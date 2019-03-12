@@ -21,10 +21,8 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.config.alarm_alert=Alarm_Classic.ogg
 
 PRODUCT_PACKAGES += \
-    ContactsProvider \
     DefaultContainerService \
     Home \
-    TelephonyProvider \
     UserDictionaryProvider \
     atrace \
     libandroidfw \
