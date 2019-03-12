@@ -20,13 +20,7 @@
 PRODUCT_PACKAGES := \
     Bluetooth \
     BluetoothMidiService \
-    Gallery2 \
-    Music \
-    MusicFX \
-    NfcNci \
     OneTimeInitializer \
-    Provision \
-    EasterEgg \
     WallpaperCropper
 
 PRODUCT_PACKAGES += \
