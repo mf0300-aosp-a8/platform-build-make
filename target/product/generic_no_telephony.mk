@@ -26,8 +26,6 @@ PRODUCT_PACKAGES := \
     NfcNci \
     OneTimeInitializer \
     Provision \
-    SystemUI \
-    SysuiDarkThemeOverlay \
     EasterEgg \
     WallpaperCropper
 
