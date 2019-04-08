@@ -21,6 +21,9 @@ PRODUCT_PACKAGES := \
     Bluetooth \
     BluetoothMidiService \
     OneTimeInitializer \
+    Provision \
+    SystemUI \
+    SysuiDarkThemeOverlay \
     WallpaperCropper
 
 PRODUCT_PACKAGES += \
