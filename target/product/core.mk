@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     BuiltInPrintService \
     CaptivePortalLogin \
     CertInstaller \
+    DocumentsUI \
     ExternalStorageProvider \
     FusedLocation \
     InputDevices \
